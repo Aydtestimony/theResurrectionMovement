@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: "Lexend Mega", sans-serif;
+    color: rgb(37, 31, 31);
+    background-color: rgb(249, 237, 239);
+    font-size: 22px;
+    text-align: center;
+
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: cetner;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+.navbar p {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.main {
+    padding-top: 35px;
+    opacity: 0.9;
+}
+
+.mission {
+    display: flex;
+    height: 300px;
+    background-image: url(./Images/Screenshot_20220411_161458_com.google.android.apps.photos.jpg);
+    padding-top: 35px;
+}
+
+.mission .content {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+}
+
+#portfolio {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.video {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.team {
+    background-image: url(./Images/Screenshot_20220411_161458_com.google.android.apps.photos.jpg);
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teammate {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+
+.teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+contact, .copyright {
+    padding-top: 20px;
+}
